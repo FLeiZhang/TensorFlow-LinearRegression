@@ -98,15 +98,3 @@ with tf.Session() as sess:
 
 经过3000次梯度下降优化后，权重与偏置都非常接近我们预先设定的值0.8和1.0.
 
-# TensorBoard
-
-运行图：
-![Graph](https://upload-images.jianshu.io/upload_images/2419179-018adb807a65e149.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
-
-损失函数值变化：
-![Loss](https://upload-images.jianshu.io/upload_images/2419179-9560be61b7a54e44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800)
-
-权重变化：
-![Weight](https://upload-images.jianshu.io/upload_images/2419179-3ebe9b0c33ee0300.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/800)
-
-本次运行，大概在第1500次优化后，得到比较稳定的参数值。
